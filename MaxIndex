@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+
+
+    <style>
+        body, html {
+        background-color: #030303;
+        height: 100%;
+        margin: 0;
+        font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+    <div class="container">
+        <img " src="Resources/ezgif.com-crop.gif" class="backgroundImage">
+            
+
+        <div class="centre">
+
+            <p>
+                I Programmed for 3 years prior to the BOOTCAMP - the first two years are in python and the last one is in Java. 
+                I like video games... A lot. I live in a different time zone so I wake up at 4 30 am to attend classes in city.
+                This geographic distance also makes it hard to play games in both EU(160 ping) & NA(89 ping) servers but at a lower elo I can manage.  </p>
+
+            <p style="padding-top: 2cm;">
+                Concluding the two weeks of coding bootcamp this project demonstrates understanding in :
+              
+            </p>
+
+            <p>classes{}, 
+                Methods();, 
+                Loops∞, 
+                Arrays[], 
+                and coordinates</p>
+            <p>
+            <p style="padding-top: 2cm;">
+                I faced two primary issues when coding my "Rain In A Box" program, the first of which is the fact that I could not use the box(); method as my main cube because processing would not render and geometry within a geometry. So one cannot see a sphere(); that is inside a box(); even if the box(); is transparent.
+The second problem I faced was syncing the Rain to the box' position in a way so that no matter the size & position of the box - the rain would still have full coverage within the box.
+            </p>
+            <p>
+                I solved the first problem by creating my box method which only gives me what I need - which is 8 positions in space and lines drawn between them accordingly.
+            </p>
+            <p>
+                The second problem is solved through the intuitive use of a global variable called offset, this variable is equal to the cubes width, length & height.
+           
+            </p>
+                 <video width="429" height="200" controls>
+                <source src="Resources/Main_Recording.mp4" type="video/mp4">
+                </video>
+                <p>
+                Check out the code from the videoon Github: <a href="https://github.com/ovesenO/adby803">https://github.com/ovesenO/adby803</a>
+            </p>
+                
+        </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
