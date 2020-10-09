@@ -1,0 +1,47 @@
+
+.container {
+    position: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .topLeft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .topRight {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottomRight {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } 
+  .backgroundImage {
+  
+    height: 50%; 
+    width: 50%;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
